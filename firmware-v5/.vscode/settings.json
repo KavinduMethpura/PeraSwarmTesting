@@ -1,0 +1,4 @@
+{
+  "platformio-ide.activateProjectOnTextEditorChange": true,
+  "idf.portWin": "COM5"
+}

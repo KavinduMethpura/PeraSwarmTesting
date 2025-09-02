@@ -1,0 +1,37 @@
+.pio
+.clang_complete
+.gcc-flags.json
+
+# IDE / editor metadata
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+src/*.ino.cpp
+src/config/config.h
+
+# Operating-system clutter
+
+# Linux
+*~
+.fuse_hidden*           # deleted-but-open temp files
+.directory              # KDE dir prefs
+.Trash-*                # Trash on ext drives
+.nfs*                   # stale file handles
+
+# Windows
+Thumbs.db
+ehthumbs*.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.cab
+*.ms[imp]               # .msi .msm .msp
+*.lnk
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*                     # Thumbnail aliases
